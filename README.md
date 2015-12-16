@@ -28,5 +28,5 @@ This script needs perl-doc package to be installed.  `sudo apt-get install perl-
 
 Last but not least, this script and the mapping has lazy load and only for Perl programs, so it shouldn't affect Vim's performance.
 
-## Installation ## 
+##Installation## 
 Using Bundle: `Plugin 'cfsalguero/perl-go-to-def'`
