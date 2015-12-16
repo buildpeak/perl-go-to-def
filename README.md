@@ -1,4 +1,4 @@
-# Go to def for Perl #
+#Go to def for Perl
 I wrote this plugin for myself and then I wanted to share it with other Perl developers.  
 The purpose of the plugin is to make it easy to jump to libraries, functions and variable definitions in a Perl program.
 
@@ -28,5 +28,5 @@ This script needs perl-doc package to be installed.  `sudo apt-get install perl-
 
 Last but not least, this script and the mapping has lazy load and only for Perl programs, so it shouldn't affect Vim's performance.
 
-##Installation## 
+##Installation
 Using Bundle: `Plugin 'cfsalguero/perl-go-to-def'`
