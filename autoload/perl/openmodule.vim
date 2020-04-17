@@ -18,7 +18,7 @@ function! perl#openmodule#GetCursorModuleName()
     let next_word = expand("<cword>")
 
     let r = substitute(r, "\n", "", "g")
-    exe "tabnew" r
+    " exe "tabnew" r
 
     if func_name != ''
         execute "normal! gg/\\<".func_name."\\>\<cr>"
