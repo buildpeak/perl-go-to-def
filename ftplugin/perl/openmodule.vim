@@ -1,1 +1,1 @@
-map <C-m> :call perl#openmodule#GetCursorModuleName()<cr>
+command! PerlDef :call perl#openmodule#GetCursorModuleName()<cr>
